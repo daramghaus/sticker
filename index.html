@@ -3,15 +3,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>daramghaus Sticker</title>
+  <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_f56779d2f827_128.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://static.tumblr.com/ca01597c604e55b35e8c26d3223ed7bb/iawroni/RQfn3ndso/tumblr_static_icon_2x.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://static.tumblr.com/aaff7994eebccc58990736b6e23f2ae2/iawroni/dNsn3ndss/tumblr_static_icon-60_2x.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://static.tumblr.com/36073c153f0f490027baa601ad66f854/iawroni/wDOn3ndt1/tumblr_static_icon-72_2x.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://static.tumblr.com/c65e0c6cbab72cb438ed153db0b18167/iawroni/tOln3ndt9/tumblr_static_icon-76_2x.png">
+  <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
   <style type="text/css">
     body{
       background: #e7e9ed;
       width: 100%;
+      padding: 0;
+      margin: 0;
       overflow: hidden;
     }
     .logo{
       position: absolute;
-      background-image: url('sticker_thumb_ani_gray.gif');
+      background-image: url('img/sticker_thumb_ani_gray.gif');
       background-repeat: no-repeat;
       background-position: center;
       background-size: 96px 74px;
@@ -30,17 +38,65 @@
             left:36%;
             right:36%;
             bottom:36%;
-            z-index:9999;
+            z-index:1;
         }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       .logo{
-        background-image: url('sticker_thumb_ani_gray@2x.gif');
+        background-image: url('img/sticker_thumb_ani_gray@2x.gif');
       }
     }
-    
+    .status {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 32px;
+      font-size: 18px;
+      text-align: center;
+      color: white;
+      background-color: #ffc000;
+      font-family: "San Francisco", "Avenir Next", "Helvetica Neue";
+      text-shadow: 0px 1px rgba(0,0,0,0.2);
+      font-weight: 300;
+      line-height: 32px;
+      padding: 0;
+      padding-top: 2px;
+      margin: 0;
+      z-index: 9999;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      border-bottom: 1px solid #ffae00;
+    }
+    .status:hover {
+      background-color: #ffae00;
+    }
+    .copyright {
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      height: 30px;
+      font-size: 16px;
+      text-align: center;
+      color: #aaaaaa;
+      font-family: "San Francisco", "Avenir Next", "Helvetica Neue";
+      text-shadow: 0px 1px white;
+      font-weight: 300;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      z-index: 9999;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    .copyright:hover {
+      color: #d5a285;
+    }
   </style>
 </head>
   <body>
+    <a href="http://goo.gl/forms/rhACDgD59v" target="_blank"><div class="status">Waiting for Review</div></a>
+
     <div class="logo"><a href="http://goo.gl/forms/rhACDgD59v" target="_blank"></a></div>
+
+    <a href="http://daramghaus.com" target="_blank"><div class="copyright">&copy; daramghaus</div></a>
   
 </body></html>
