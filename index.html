@@ -3,100 +3,157 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>daramghaus Sticker</title>
+  <meta name="keywords" content="daramghaus Sticker">
+  <meta name="description" content="daramghaus Sticker - Chipmunk & Puppy Wing">
+  
+  <!-- Open Graph protocol -->
+  <meta property="og:title" content="daramghaus Sticker"  />
+  <meta property="og:description" content="daramghaus Sticker - Chipmunk & Puppy Wing"  />
+  <meta property="og:image" content="http://sticker.daramghaus.com/img/og_image.jpg" />
+  <meta property="og:image:width" content="250" />
+  <meta property="og:image:height" content="250" />
+  <meta property="og:url" content="http://sticker.daramghaus.com" />
+  <meta property="og:site_name" content="daramghaus Sticker" />
+  <meta property="og:type" content="website" />
+
+  <!-- icon -->
   <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_f56779d2f827_128.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://static.tumblr.com/ca01597c604e55b35e8c26d3223ed7bb/iawroni/RQfn3ndso/tumblr_static_icon_2x.png">
   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://static.tumblr.com/aaff7994eebccc58990736b6e23f2ae2/iawroni/dNsn3ndss/tumblr_static_icon-60_2x.png">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://static.tumblr.com/36073c153f0f490027baa601ad66f854/iawroni/wDOn3ndt1/tumblr_static_icon-72_2x.png">
   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://static.tumblr.com/c65e0c6cbab72cb438ed153db0b18167/iawroni/tOln3ndt9/tumblr_static_icon-76_2x.png">
-  <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
-  <style type="text/css">
-    body{
-      background: #e7e9ed;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      overflow: hidden;
-    }
-    .logo{
-      position: absolute;
-      background-image: url('img/sticker_thumb_ani_gray.gif');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 96px 74px;
-      width:100%;
-      height: 100%;
-      -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-        .logo a{
-            display:block;
-            position:absolute;
-            width:auto;
-            height:auto;
-            margin:auto;
-            top:36%;
-            left:36%;
-            right:36%;
-            bottom:36%;
-            z-index:1;
-        }
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-      .logo{
-        background-image: url('img/sticker_thumb_ani_gray@2x.gif');
-      }
-    }
-    .status {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 32px;
-      font-size: 18px;
-      text-align: center;
-      color: white;
-      background-color: #ffc000;
-      font-family: "San Francisco", "Avenir Next", "Helvetica Neue";
-      text-shadow: 0px 1px rgba(0,0,0,0.2);
-      font-weight: 500;
-      line-height: 32px;
-      padding: 0;
-      padding-top: 2px;
-      margin: 0;
-      z-index: 9999;
-      -webkit-transition: all 0.2s;
-      transition: all 0.2s;
-      border-bottom: 1px solid #ffae00;
-    }
-    .status:hover {
-      background-color: #ffae00;
-    }
-    .copyright {
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      height: 30px;
-      font-size: 16px;
-      text-align: center;
-      color: #aaaaaa;
-      font-family: "San Francisco", "Avenir Next", "Helvetica Neue";
-      text-shadow: 0px 1px white;
-      font-weight: 400;
-      line-height: 30px;
-      padding: 0;
-      margin: 0;
-      z-index: 9999;
-      -webkit-transition: all 0.2s;
-      transition: all 0.2s;
-    }
-    .copyright:hover {
-      color: #d5a285;
-    }
-  </style>
+  <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    var language = window.navigator.userLanguage || window.navigator.language;
+    var lang = language.substr(0,2).toLowerCase()
+    jQuery(document).ready(function($){ $('body').addClass(lang); });
+
+    jQuery(document).ready(function($){
+      $(".lang").addClass("hidden");
+      $("."+lang).removeClass("hidden");
+    });
+  </script>
 </head>
-  <body>
-    <a href="http://goo.gl/forms/rhACDgD59v" target="_blank"><div class="status">Waiting for Review</div></a>
+<body>
 
-    <div class="logo"><a href="http://goo.gl/forms/rhACDgD59v" target="_blank"></a></div>
+    <!-- Status -->
+    <!-- <a href="http://goo.gl/forms/rhACDgD59v" target="_blank"><div class="status">Waiting for Review</div></a> -->
 
-    <a href="http://daramghaus.com" target="_blank"><div class="copyright">&copy; daramghaus</div></a>
+    <div id="main_content" class="main_content">
+      <!-- main image -->
+      <img class="main_image" src="img/chipmunk_puppywing/sticker_main@2x.png" width="200" height="200" alt="">
+
+      <!-- title -->
+      <img class="main_title lang en" src="img/chipmunk_puppywing/sticker_logotype_en@2x.png" width="240" height="120" alt="Chipmunk &amp; Puppy Wing">
+      <img class="main_title lang ja hidden" src="img/chipmunk_puppywing/sticker_logotype_jp@2x.png" width="240" height="120" alt="リスとワンワンウイング">
+      <img class="main_title lang ko hidden" src="img/chipmunk_puppywing/sticker_logotype_kr@2x.png" width="240" height="120" alt="다람쥐와 멍멍이윙">
+      
+      <!-- heading -->
+      <h1 class="heading">
+        <span class="lang en"><span class="logoicon"><a href="http://daramghaus.com" target="_blank"></span>daramghaus</a><span class="font_light">'s 1st Stickers</span></span>
+        <span class="lang ja hidden"><a href="http://daramghaus.com" target="_blank"><span class="logoicon"></span>ダラムジハウス</a><span class="font_light">の最初のスタンプ</span></span>
+        <span class="lang ko hidden"><a href="http://daramghaus.com" target="_blank"><span class="logoicon"></span>다람쥐하우스</a><span class="font_light">의 첫번째 스티커팩</span></span>
+      </h1>
+
+      <!-- desc. -->
+      <p class="main_desc">
+        <span class="lang en"><i>What!? A chipmunk is raising a dog??</i> <br>Meet the everyday life of cute Chipmunk and Puppy Wing via LINE Stickers.</span>
+        <span class="lang ja hidden"><i>え!? シマリスが犬を育てるって??</i> <br>可愛いシマリスと翼のついた犬・ワンワンウイングの楽しい日常をスタンプで見てみよう!</span>
+        <span class="lang ko hidden"><i>뭐!? 다람쥐가 개를 키운다고??</i> <br>깜찍한 다람쥐와 날개 달린 강아지 멍멍이윙의 재미난 일상을 스티커로 만나보세요.</span>
+      </p>
+
+      <!-- btn -->
+      <div class="btn_wrapper">
+        
+        <a class="btn line" href="http://line.me/S/sticker/1205323" target="_blank">
+          <span class="lang en">LINE <span class="font_light">Sticker Shop</span></span>
+          <span class="lang ja hidden">LINE <span class="font_light">スタンプの店</span></span>
+          <span class="lang ko hidden">LINE <span class="font_light">스티커샵</span></span>
+        </a>
+        
+        <!-- <a class="btn kakaotalk" href="http://goo.gl/forms/rhACDgD59v" target="_blank">
+          <span class="lang en">KakaoTalk <span class="font_light">Sticker Shop</span></span>
+          <span class="lang ja hidden">カカオトーク <span class="font_light">スタンプの店</span></span>
+          <span class="lang ko hidden">카카오톡 <span class="font_light">스티커샵</span></span>
+        </a> -->
+        <!-- <a class="btn facebook" href="http://goo.gl/forms/rhACDgD59v" target="_blank">Facebook</a> -->
+
+      </div>
+
+      <!-- sticker -->
+      <div class="sticker_wrapper">
+        <div class="sticker_box">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_01@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_02@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_03@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_04@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_05@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_06@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_07@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_08@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_09@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_10@2x.png" width="100" height="90" alt="">
+          <img class="sticker item_trembling" src="img/chipmunk_puppywing/sticker_11@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_12@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_13@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_14@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_15@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_16@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_17@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_18@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_19@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_20@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_21@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_22@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_23@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_24@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_25@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_26@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_27@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_28@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_29@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_30@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_31@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_32@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_33@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_34@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_35@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_36@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_37@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_38@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_39@2x.png" width="100" height="90" alt="">
+          <img class="sticker" src="img/chipmunk_puppywing/sticker_40@2x.png" width="100" height="90" alt="">
+        </div>
+      </div>
+      
+      <br>
+      <img src="img/chipmunk_puppywing/sticker_thumb_ani_gray@2x.gif" width="96" height="74">
+
+      <!-- btn -->
+      <div class="btn_wrapper">
+        
+        <p class="btn_header_info">
+          <span class="lang en">Are you using other messengers?</span>
+          <span class="lang ja hidden">他のメッセンジャーを使用か？</span>
+          <span class="lang ko hidden">다른 메신저를 사용하나요?</span>
+        </p>
+        <a class="btn font_light" href="http://goo.gl/forms/rhACDgD59v" target="_blank">
+          <span class="lang en ">Subscribe</span>
+          <span class="lang ja hidden">発売メールの受信</span></span>
+          <span class="lang ko hidden">출시 메일 받기</span></span>
+        </a>
+
+      </div>
+
+    </div>
+    <a href="http://daramghaus.com" target="_blank">
+      <div class="copyright">
+        <span class="lang en">&copy; daramghaus</span>
+        <span class="lang ja hidden">&copy; ダラムジハウス &nbsp;<span class="font_light">daramghaus</span></span>
+        <span class="lang ko hidden">&copy; 다람쥐하우스 &nbsp;<span class="font_light">daramghaus</span></span>
+      </div>
+    </a>
   
-</body></html>
+</body>
+</html>

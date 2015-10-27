@@ -8025,3 +8025,436 @@ button.close {
     display: none !important;
   }
 }
+/* line 13, ../sass/styles.sass */
+[hidden], area, base, basefont, command, datalist, head, input[type=hidden], link, menu[type=context], meta, noembed, noframes, param, script, source, style, track, title {
+  display: none;
+}
+
+/* line 15, ../sass/styles.sass */
+address, article, aside, blockquote, body, center, dd, dir, div, dl, dt, figure, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, legend, listing, menu, nav, ol, p, plaintext, pre, section, summary, ul, xmp {
+  display: block;
+}
+
+/* line 17, ../sass/styles.sass */
+table {
+  display: table;
+}
+
+/* line 19, ../sass/styles.sass */
+caption {
+  display: table-caption;
+}
+
+/* line 21, ../sass/styles.sass */
+colgroup {
+  display: table-column-group;
+}
+
+/* line 23, ../sass/styles.sass */
+col {
+  display: table-column;
+}
+
+/* line 25, ../sass/styles.sass */
+thead {
+  display: table-header-group;
+}
+
+/* line 27, ../sass/styles.sass */
+tbody {
+  display: table-row-group;
+}
+
+/* line 29, ../sass/styles.sass */
+tfoot {
+  display: table-footer-group;
+}
+
+/* line 31, ../sass/styles.sass */
+tr {
+  display: table-row;
+}
+
+/* line 33, ../sass/styles.sass */
+td, th {
+  display: table-cell;
+}
+
+/* line 35, ../sass/styles.sass */
+ul, ol {
+  -webkit-padding-start: 0px;
+  padding-start: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 41, ../sass/styles.sass */
+li {
+  display: list-item;
+  list-style: none;
+}
+
+/* line 44, ../sass/styles.sass */
+ruby {
+  display: ruby;
+}
+
+/* line 46, ../sass/styles.sass */
+rt {
+  display: ruby-text;
+}
+
+/* line 49, ../sass/styles.sass */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 54, ../sass/styles.sass */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 61, ../sass/styles.sass */
+body {
+  background: #e7e9ed;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Nexa webfont", "Avenir Next", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", "Nanum Gothic", "맑은 고딕", "Arial", "돋움", "Dotum", sans-serif;
+}
+@media screen and (min-width: 767px) {
+  /* line 61, ../sass/styles.sass */
+  body {
+    font-family: "Nexa webfont", "Avenir Next", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", "Noto Sans CJK KR", "Nanum Gothic", "맑은 고딕", "NotoSansKR webfont", "Arial", "돋움", "Dotum", sans-serif;
+  }
+}
+
+/* line 70, ../sass/styles.sass */
+.logo {
+  position: absolute;
+  background-image: url("../img/sticker_thumb_ani_gray.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 96px 74px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 70, ../sass/styles.sass */
+  .logo {
+    background-image: url("../img/sticker_thumb_ani_gray@2x.gif");
+  }
+}
+
+/* line 83, ../sass/styles.sass */
+.logo a {
+  top: 36%;
+  left: 36%;
+  right: 36%;
+  bottom: 36%;
+  z-index: 1;
+}
+
+/* line 95, ../sass/styles.sass */
+.main_content {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 99, ../sass/styles.sass */
+.main_image {
+  margin: 20px auto 0;
+  display: block;
+}
+
+/* line 103, ../sass/styles.sass */
+.main_title {
+  margin: -30px auto 0;
+  display: block;
+}
+
+/* line 107, ../sass/styles.sass */
+.heading {
+  font-size: 18px;
+  color: #D5A285;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 113, ../sass/styles.sass */
+.heading a {
+  color: inherit !important;
+}
+/* line 115, ../sass/styles.sass */
+.heading a:hover {
+  text-decoration: underline;
+}
+
+/* Inline Logo Icon */
+/* line 119, ../sass/styles.sass */
+.logoicon {
+  background-image: url("../img/logoicon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.2em;
+  height: 0;
+  width: 1.2em;
+  padding-top: 1.2em;
+  margin-right: 0.08em;
+  overflow: hidden;
+  display: inline-block;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 119, ../sass/styles.sass */
+  .logoicon {
+    background-image: url("../img/logoicon@2x.png");
+  }
+}
+
+/* line 133, ../sass/styles.sass */
+.main_desc {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 400;
+  max-width: 280px;
+  margin: 8px auto 20px;
+}
+
+/* line 140, ../sass/styles.sass */
+.sticker_wrapper {
+  max-width: 480px;
+  margin: 20px auto;
+}
+/* line 143, ../sass/styles.sass */
+.sticker_wrapper .sticker_box {
+  border-radius: 6px;
+  width: 90%;
+  margin: auto;
+  padding: 4px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+/* line 150, ../sass/styles.sass */
+.sticker_wrapper .sticker {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  height: 81px;
+}
+@media screen and (min-width: 375px) {
+  /* line 150, ../sass/styles.sass */
+  .sticker_wrapper .sticker {
+    width: 100px;
+    height: 90px;
+  }
+}
+@media screen and (min-width: 414px) {
+  /* line 150, ../sass/styles.sass */
+  .sticker_wrapper .sticker {
+    width: 88px;
+    height: 79px;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* line 150, ../sass/styles.sass */
+  .sticker_wrapper .sticker {
+    width: 100px;
+    height: 90px;
+  }
+}
+
+/* line 165, ../sass/styles.sass */
+.status {
+  width: 100%;
+  height: 32px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #ffc000;
+  font-family: "San Francisco", "Avenir Next", "Helvetica Neue";
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0;
+  padding-top: 2px;
+  margin: 0;
+  z-index: 9999;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-bottom: 1px solid #ffae00;
+}
+
+/* line 184, ../sass/styles.sass */
+.status:hover {
+  background-color: #ffae00;
+}
+
+/* line 188, ../sass/styles.sass */
+.btn_wrapper {
+  margin-bottom: 30px;
+  max-width: 480px;
+  margin: 20px auto;
+}
+
+/* line 192, ../sass/styles.sass */
+.btn {
+  width: 90%;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0069d9;
+  margin: 4px auto;
+  border: none;
+  padding: 6px 10px;
+  position: relative;
+  background-color: white;
+}
+/* line 203, ../sass/styles.sass */
+.btn:visited {
+  color: #0069d9;
+  background-color: white;
+}
+/* line 206, ../sass/styles.sass */
+.btn:hover {
+  color: #0069d9;
+  background-color: #fafafa;
+}
+/* line 209, ../sass/styles.sass */
+.btn.line, .btn.line:visited {
+  background-color: #61cf43;
+  color: white;
+}
+/* line 212, ../sass/styles.sass */
+.btn.line:hover, .btn.line:visited:hover {
+  background-color: #3ab930;
+}
+/* line 214, ../sass/styles.sass */
+.btn.kakaotalk, .btn.kakaotalk:visited {
+  background-color: #fbe232;
+  color: #3a1e1f;
+  border: 1px solid #f7d121;
+}
+/* line 218, ../sass/styles.sass */
+.btn.kakaotalk:hover, .btn.kakaotalk:visited:hover {
+  background-color: #f7d121;
+  color: #3a1e1f;
+}
+/* line 221, ../sass/styles.sass */
+.btn.facebook, .btn.facebook:visited {
+  background-color: #435f9a;
+  color: white;
+}
+/* line 224, ../sass/styles.sass */
+.btn.facebook:hover, .btn.facebook:visited:hover {
+  background-color: #324f8c;
+}
+
+/* line 226, ../sass/styles.sass */
+.btn_header_info {
+  margin-top: 16px;
+  margin-bottom: 2px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* line 233, ../sass/styles.sass */
+.copyright {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  color: #aaaaaa;
+  font-family: "San Francisco", "Avenir Next", "Helvetica Neue";
+  text-shadow: 0px 1px white;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0;
+  margin: 30px auto 30px;
+  z-index: 9999;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* line 249, ../sass/styles.sass */
+.copyright:hover {
+  color: #d5a285;
+}
+
+/* line 252, ../sass/styles.sass */
+.gray {
+  color: #aaaaaa !important;
+}
+
+/* line 254, ../sass/styles.sass */
+.font_light {
+  font-weight: 300 !important;
+}
+
+/* Animation */
+@-webkit-keyframes trembling {
+  0% {
+    -webkit-transform: translate(0.5px, 0.5px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -0.5px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-0.5px, 0px) rotate(1.5deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 1px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(0.5px, -0.5px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 0.5px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-0.5px, 0.5px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(0.5px, 1px) rotate(-0.5deg);
+  }
+  80% {
+    -webkit-transform: translate(-0.5px, -0.5px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 0.5px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0.5px, -0.5px) rotate(-1deg);
+  }
+}
+/* line 282, ../sass/styles.sass */
+.item_trembling {
+  -webkit-animation-name: trembling;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+/* line 288, ../sass/styles.sass */
+.item_trembling:nth-child(odd) {
+  -webkit-animation-direction: alternate;
+}
+/* line 290, ../sass/styles.sass */
+.item_trembling:nth-child(even) {
+  -webkit-animation-direction: reverse;
+}
+/* line 292, ../sass/styles.sass */
+.item_trembling:nth-child(3n) {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-direction: alternate-reverse;
+}
+/* line 295, ../sass/styles.sass */
+.item_trembling:nth-child(5n) {
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-direction: reverse;
+}
