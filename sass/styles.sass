@@ -140,6 +140,8 @@ body
 .sticker_wrapper
   max-width: 480px
   margin: 20px auto
+  @media screen and (min-width:768px)
+    max-width: 640px
   .sticker_box
     border-radius: 6px
     width: 90%
@@ -147,12 +149,13 @@ body
     padding: 4px
     background-color: #f0f0f0
     text-align: center
-  .sticker
+  .sticker_div
     display: inline-block
     margin: 0
     padding: 0
     width: 90px
     height: 81px
+    padding: 4px
     @media screen and (min-width:375px)
       width: 100px
       height: 90px
@@ -162,6 +165,14 @@ body
     @media screen and (min-width:480px)
       width: 100px
       height: 90px
+    @media screen and (min-width:768px)
+      width: 134px
+      height: 120px
+  .sticker
+    max-width: 100%
+    max-height: 100%
+    cursor: pointer
+
 .status
   width: 100%
   height: 32px
@@ -189,6 +200,8 @@ body
   margin-bottom: 30px
   max-width: 480px
   margin: 20px auto
+  @media screen and (min-width:768px)
+    max-width: 320px
 .btn
   width: 90%
   border-radius: 6px

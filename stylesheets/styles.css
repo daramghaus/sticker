@@ -8229,7 +8229,13 @@ body {
   max-width: 480px;
   margin: 20px auto;
 }
-/* line 143, ../sass/styles.sass */
+@media screen and (min-width: 768px) {
+  /* line 140, ../sass/styles.sass */
+  .sticker_wrapper {
+    max-width: 640px;
+  }
+}
+/* line 145, ../sass/styles.sass */
 .sticker_wrapper .sticker_box {
   border-radius: 6px;
   width: 90%;
@@ -8238,37 +8244,51 @@ body {
   background-color: #f0f0f0;
   text-align: center;
 }
-/* line 150, ../sass/styles.sass */
-.sticker_wrapper .sticker {
+/* line 152, ../sass/styles.sass */
+.sticker_wrapper .sticker_div {
   display: inline-block;
   margin: 0;
   padding: 0;
   width: 90px;
   height: 81px;
+  padding: 4px;
 }
 @media screen and (min-width: 375px) {
-  /* line 150, ../sass/styles.sass */
-  .sticker_wrapper .sticker {
+  /* line 152, ../sass/styles.sass */
+  .sticker_wrapper .sticker_div {
     width: 100px;
     height: 90px;
   }
 }
 @media screen and (min-width: 414px) {
-  /* line 150, ../sass/styles.sass */
-  .sticker_wrapper .sticker {
+  /* line 152, ../sass/styles.sass */
+  .sticker_wrapper .sticker_div {
     width: 88px;
     height: 79px;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 150, ../sass/styles.sass */
-  .sticker_wrapper .sticker {
+  /* line 152, ../sass/styles.sass */
+  .sticker_wrapper .sticker_div {
     width: 100px;
     height: 90px;
   }
 }
+@media screen and (min-width: 768px) {
+  /* line 152, ../sass/styles.sass */
+  .sticker_wrapper .sticker_div {
+    width: 134px;
+    height: 120px;
+  }
+}
+/* line 171, ../sass/styles.sass */
+.sticker_wrapper .sticker {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
 
-/* line 165, ../sass/styles.sass */
+/* line 176, ../sass/styles.sass */
 .status {
   width: 100%;
   height: 32px;
@@ -8289,19 +8309,25 @@ body {
   border-bottom: 1px solid #ffae00;
 }
 
-/* line 184, ../sass/styles.sass */
+/* line 195, ../sass/styles.sass */
 .status:hover {
   background-color: #ffae00;
 }
 
-/* line 188, ../sass/styles.sass */
+/* line 199, ../sass/styles.sass */
 .btn_wrapper {
   margin-bottom: 30px;
   max-width: 480px;
   margin: 20px auto;
 }
+@media screen and (min-width: 768px) {
+  /* line 199, ../sass/styles.sass */
+  .btn_wrapper {
+    max-width: 320px;
+  }
+}
 
-/* line 192, ../sass/styles.sass */
+/* line 205, ../sass/styles.sass */
 .btn {
   width: 90%;
   border-radius: 6px;
@@ -8314,47 +8340,47 @@ body {
   position: relative;
   background-color: white;
 }
-/* line 203, ../sass/styles.sass */
+/* line 216, ../sass/styles.sass */
 .btn:visited {
   color: #0069d9;
   background-color: white;
 }
-/* line 206, ../sass/styles.sass */
+/* line 219, ../sass/styles.sass */
 .btn:hover {
   color: #0069d9;
   background-color: #fafafa;
 }
-/* line 209, ../sass/styles.sass */
+/* line 222, ../sass/styles.sass */
 .btn.line, .btn.line:visited {
   background-color: #61cf43;
   color: white;
 }
-/* line 212, ../sass/styles.sass */
+/* line 225, ../sass/styles.sass */
 .btn.line:hover, .btn.line:visited:hover {
   background-color: #3ab930;
 }
-/* line 214, ../sass/styles.sass */
+/* line 227, ../sass/styles.sass */
 .btn.kakaotalk, .btn.kakaotalk:visited {
   background-color: #fbe232;
   color: #3a1e1f;
   border: 1px solid #f7d121;
 }
-/* line 218, ../sass/styles.sass */
+/* line 231, ../sass/styles.sass */
 .btn.kakaotalk:hover, .btn.kakaotalk:visited:hover {
   background-color: #f7d121;
   color: #3a1e1f;
 }
-/* line 221, ../sass/styles.sass */
+/* line 234, ../sass/styles.sass */
 .btn.facebook, .btn.facebook:visited {
   background-color: #435f9a;
   color: white;
 }
-/* line 224, ../sass/styles.sass */
+/* line 237, ../sass/styles.sass */
 .btn.facebook:hover, .btn.facebook:visited:hover {
   background-color: #324f8c;
 }
 
-/* line 226, ../sass/styles.sass */
+/* line 239, ../sass/styles.sass */
 .btn_header_info {
   margin-top: 16px;
   margin-bottom: 2px;
@@ -8363,7 +8389,7 @@ body {
   font-size: 14px;
 }
 
-/* line 233, ../sass/styles.sass */
+/* line 246, ../sass/styles.sass */
 .copyright {
   width: 100%;
   height: 30px;
@@ -8381,17 +8407,17 @@ body {
   transition: all 0.2s;
 }
 
-/* line 249, ../sass/styles.sass */
+/* line 262, ../sass/styles.sass */
 .copyright:hover {
   color: #d5a285;
 }
 
-/* line 252, ../sass/styles.sass */
+/* line 265, ../sass/styles.sass */
 .gray {
   color: #aaaaaa !important;
 }
 
-/* line 254, ../sass/styles.sass */
+/* line 267, ../sass/styles.sass */
 .font_light {
   font-weight: 300 !important;
 }
@@ -8432,7 +8458,7 @@ body {
     -webkit-transform: translate(0.5px, -0.5px) rotate(-1deg);
   }
 }
-/* line 282, ../sass/styles.sass */
+/* line 295, ../sass/styles.sass */
 .item_trembling {
   -webkit-animation-name: trembling;
   -webkit-animation-duration: 0.8s;
@@ -8440,20 +8466,20 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
-/* line 288, ../sass/styles.sass */
+/* line 301, ../sass/styles.sass */
 .item_trembling:nth-child(odd) {
   -webkit-animation-direction: alternate;
 }
-/* line 290, ../sass/styles.sass */
+/* line 303, ../sass/styles.sass */
 .item_trembling:nth-child(even) {
   -webkit-animation-direction: reverse;
 }
-/* line 292, ../sass/styles.sass */
+/* line 305, ../sass/styles.sass */
 .item_trembling:nth-child(3n) {
   -webkit-animation-duration: 1s;
   -webkit-animation-direction: alternate-reverse;
 }
-/* line 295, ../sass/styles.sass */
+/* line 308, ../sass/styles.sass */
 .item_trembling:nth-child(5n) {
   -webkit-animation-duration: 0.7s;
   -webkit-animation-direction: reverse;
