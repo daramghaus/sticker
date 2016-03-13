@@ -146,9 +146,11 @@ body
     border-radius: 6px
     width: 90%
     margin: auto
-    padding: 4px
+    padding: 8px 4px
     background-color: #f0f0f0
     text-align: center
+    @media screen and (min-width:768px)
+      padding: 16px 12px
   .sticker_div
     display: inline-block
     margin: 0
@@ -179,8 +181,8 @@ body
   font-size: 18px
   text-align: center
   color: white
-  background-color: #ffc000
-  font-family: "San Francisco", "Avenir Next", "Helvetica Neue"
+  // background-color: #ffc000 // Waiting for Review
+  background-color: #3fafe0 // Telegram
   text-shadow: 0px 1px rgba(0,0,0,0.2)
   font-weight: 500
   line-height: 32px
@@ -190,10 +192,12 @@ body
   z-index: 9999
   -webkit-transition: all 0.2s
   transition: all 0.2s
-  border-bottom: 1px solid #ffae00
+  // border-bottom: 1px solid #ffae00 // Waiting for Review
+  border-bottom: 1px solid #2895d1 // Telegram
     
 .status:hover 
-  background-color: #ffae00 // Waiting for Review
+  // background-color: #ffae00 // Waiting for Review
+  background-color: #2895d1 // Telegram
 
 
 .btn_wrapper
@@ -202,6 +206,7 @@ body
   margin: 20px auto
   @media screen and (min-width:768px)
     max-width: 320px
+    margin-bottom: 40px
 .btn
   width: 90%
   border-radius: 6px
@@ -213,6 +218,12 @@ body
   padding: 6px 10px
   position: relative
   background-color: white
+  .free
+    display: inline-block
+    margin-left: 8px
+    font-size: 14px
+    font-weight: 300
+    color: #fafafa
   &:visited
     color: #0069d9
     background-color: white
@@ -224,6 +235,11 @@ body
     color: white
     &:hover
       background-color: #3ab930
+  &.telegram, &.telegram:visited
+    background-color: #3fafe0
+    color: white
+    &:hover
+      background-color: #2895d1
   &.kakaotalk, &.kakaotalk:visited
     background-color: #fbe232
     color: #3a1e1f
