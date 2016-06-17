@@ -8347,63 +8347,62 @@ body {
   background-color: white;
 }
 /* line 221, ../sass/styles.sass */
-.btn .free {
+.btn .small {
   display: inline-block;
   margin-left: 8px;
   font-size: 14px;
   font-weight: 300;
-  color: #fafafa;
 }
-/* line 227, ../sass/styles.sass */
+/* line 226, ../sass/styles.sass */
 .btn:visited {
   color: #0069d9;
   background-color: white;
 }
-/* line 230, ../sass/styles.sass */
+/* line 229, ../sass/styles.sass */
 .btn:hover {
   color: #0069d9;
   background-color: #fafafa;
 }
-/* line 233, ../sass/styles.sass */
+/* line 232, ../sass/styles.sass */
 .btn.line, .btn.line:visited {
   background-color: #61cf43;
   color: white;
 }
-/* line 236, ../sass/styles.sass */
+/* line 235, ../sass/styles.sass */
 .btn.line:hover, .btn.line:visited:hover {
   background-color: #3ab930;
 }
-/* line 238, ../sass/styles.sass */
+/* line 237, ../sass/styles.sass */
 .btn.telegram, .btn.telegram:visited {
   background-color: #3fafe0;
   color: white;
 }
-/* line 241, ../sass/styles.sass */
+/* line 240, ../sass/styles.sass */
 .btn.telegram:hover, .btn.telegram:visited:hover {
   background-color: #2895d1;
 }
-/* line 243, ../sass/styles.sass */
+/* line 242, ../sass/styles.sass */
 .btn.kakaotalk, .btn.kakaotalk:visited {
   background-color: #fbe232;
   color: #3a1e1f;
   border: 1px solid #f7d121;
 }
-/* line 247, ../sass/styles.sass */
+/* line 246, ../sass/styles.sass */
 .btn.kakaotalk:hover, .btn.kakaotalk:visited:hover {
   background-color: #f7d121;
   color: #3a1e1f;
 }
-/* line 250, ../sass/styles.sass */
+/* line 249, ../sass/styles.sass */
 .btn.facebook, .btn.facebook:visited {
   background-color: #435f9a;
   color: white;
 }
-/* line 253, ../sass/styles.sass */
+/* line 252, ../sass/styles.sass */
 .btn.facebook:hover, .btn.facebook:visited:hover {
   background-color: #324f8c;
 }
 
-/* line 255, ../sass/styles.sass */
+/* line 254, ../sass/styles.sass */
 .btn_header_info {
   margin-top: 16px;
   margin-bottom: 2px;
@@ -8412,7 +8411,7 @@ body {
   font-size: 14px;
 }
 
-/* line 262, ../sass/styles.sass */
+/* line 261, ../sass/styles.sass */
 .copyright {
   width: 100%;
   height: 30px;
@@ -8430,17 +8429,17 @@ body {
   transition: all 0.2s;
 }
 
-/* line 278, ../sass/styles.sass */
+/* line 277, ../sass/styles.sass */
 .copyright:hover {
   color: #d5a285;
 }
 
-/* line 281, ../sass/styles.sass */
+/* line 280, ../sass/styles.sass */
 .gray {
   color: #aaaaaa !important;
 }
 
-/* line 283, ../sass/styles.sass */
+/* line 282, ../sass/styles.sass */
 .font_light {
   font-weight: 300 !important;
 }
@@ -8481,7 +8480,7 @@ body {
     -webkit-transform: translate(0.5px, -0.5px) rotate(-1deg);
   }
 }
-/* line 311, ../sass/styles.sass */
+/* line 310, ../sass/styles.sass */
 .item_trembling {
   -webkit-animation-name: trembling;
   -webkit-animation-duration: 0.8s;
@@ -8489,20 +8488,20 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
-/* line 317, ../sass/styles.sass */
+/* line 316, ../sass/styles.sass */
 .item_trembling:nth-child(odd) {
   -webkit-animation-direction: alternate;
 }
-/* line 319, ../sass/styles.sass */
+/* line 318, ../sass/styles.sass */
 .item_trembling:nth-child(even) {
   -webkit-animation-direction: reverse;
 }
-/* line 321, ../sass/styles.sass */
+/* line 320, ../sass/styles.sass */
 .item_trembling:nth-child(3n) {
   -webkit-animation-duration: 1s;
   -webkit-animation-direction: alternate-reverse;
 }
-/* line 324, ../sass/styles.sass */
+/* line 323, ../sass/styles.sass */
 .item_trembling:nth-child(5n) {
   -webkit-animation-duration: 0.7s;
   -webkit-animation-direction: reverse;
