@@ -66,35 +66,34 @@ body
   font-family: $font-heading-mobile
   @media screen and (min-width: 767px)
     font-family:  $font-heading
-    
-.logo
-  position: absolute
-  background-image: url('../img/sticker_thumb_ani_gray.gif')
-  background-repeat: no-repeat
-  background-position: center
-  background-size: 96px 74px
-  width: 100%
-  height: 100%
-  -webkit-transition: all 0.5s ease
-  transition: all 0.5s ease
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) 
-    background-image: url('../img/sticker_thumb_ani_gray@2x.gif')
 
-.logo a
-  display:block
-  position:absolute
-  width:auto
-  height:auto
-  margin:auto
-  top: 36%
-  left: 36%
-  right: 36%
-  bottom: 36%
-  z-index: 1
+.back_btn
+  display: block
+  position: absolute
+  top: 16px
+  left: 16px
+  height: 0
+  overflow: hidden
+  padding-top: 40px
+  width: 40px
+  background-repeat: no-repeat
+  background-size: 100%
+  background-position: center
+  background-image: url('../img/back_btn.png')
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) 
+    background-image: url('../img/back_btn@2x.png')
+  @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (-moz-min-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3 / 1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 216dpi), only screen and (min-resolution: 3dppx)
+    background-image: url('../img/back_btn@3x.png')
+  &:hover
+    opacity: 0.6
 
 .main_content
   width: 100%
   text-align: center
+
+.main_image_home
+  margin: 40px auto 10px
+  display: block
 
 .main_image
   margin: 20px auto 0
@@ -110,6 +109,9 @@ body
   font-weight: 400
   margin-top: 0
   margin-bottom: 20px
+  &.large
+    font-size: 24px
+    font-weight: 100
   a
     color: inherit !important
   a:hover
@@ -134,8 +136,30 @@ body
   font-size: 14px
   color: #999999
   font-weight: 400
-  max-width: 290px
+  max-width: 360px
   margin: 8px auto 20px
+
+.pack_wrapper
+  margin: 30px 0 20px
+.pack
+  display: inline-block
+  padding: 8px
+  &:hover
+    opacity: 0.8
+  img
+    display: block
+    margin: 0 auto 8px
+    border: 1px solid #ddd
+    width: 104px
+    height: 77px
+    border-radius: 38.6px
+    
+  figure
+    display: block
+    text-align: center
+    font-size: 14px
+    color: #666
+    font-weight: 300
 
 .sticker_wrapper
   max-width: 480px
@@ -174,31 +198,6 @@ body
     max-width: 100%
     max-height: 100%
     cursor: pointer
-
-.status
-  width: 100%
-  height: 32px
-  font-size: 18px
-  text-align: center
-  color: white
-  // background-color: #ffc000 // Waiting for Review
-  background-color: #3fafe0 // Telegram
-  text-shadow: 0px 1px rgba(0,0,0,0.2)
-  font-weight: 500
-  line-height: 32px
-  padding: 0
-  padding-top: 2px
-  margin: 0
-  z-index: 9999
-  -webkit-transition: all 0.2s
-  transition: all 0.2s
-  // border-bottom: 1px solid #ffae00 // Waiting for Review
-  border-bottom: 1px solid #2895d1 // Telegram
-    
-.status:hover 
-  // background-color: #ffae00 // Waiting for Review
-  background-color: #2895d1 // Telegram
-
 
 .btn_wrapper
   margin-bottom: 30px
