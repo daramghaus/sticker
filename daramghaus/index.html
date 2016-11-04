@@ -43,8 +43,14 @@
     jQuery(document).ready(function($){ $('body').addClass(lang); });
 
     jQuery(document).ready(function($){
-      $(".lang").addClass("hidden");
-      $("."+lang).removeClass("hidden");
+      if ($('body').hasClass('ko')) {
+        $(".lang").addClass("hidden");
+        return $("."+lang).removeClass("hidden");
+      }
+      else if ($('body').hasClass('ja')) {
+        $(".lang").addClass("hidden");
+        return $("."+lang).removeClass("hidden");
+      }
     });
   </script>
 </head>
