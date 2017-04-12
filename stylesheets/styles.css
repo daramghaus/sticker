@@ -8132,6 +8132,14 @@ body {
 }
 
 /* line 70, ../sass/styles.sass */
+hr {
+  max-width: 480px;
+  margin: 20px auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  transform: scaleX(0.9);
+}
+
+/* line 76, ../sass/styles.sass */
 .back_btn {
   display: block;
   position: absolute;
@@ -8147,47 +8155,47 @@ body {
   background-image: url("../img/back_btn.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 70, ../sass/styles.sass */
+  /* line 76, ../sass/styles.sass */
   .back_btn {
     background-image: url("../img/back_btn@2x.png");
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (-moz-min-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3 / 1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 216dpi), only screen and (min-resolution: 3dppx) {
-  /* line 70, ../sass/styles.sass */
+  /* line 76, ../sass/styles.sass */
   .back_btn {
     background-image: url("../img/back_btn@3x.png");
   }
 }
-/* line 87, ../sass/styles.sass */
+/* line 93, ../sass/styles.sass */
 .back_btn:hover {
   opacity: 0.6;
 }
 
-/* line 90, ../sass/styles.sass */
+/* line 96, ../sass/styles.sass */
 .main_content {
   width: 100%;
   text-align: center;
 }
 
-/* line 94, ../sass/styles.sass */
+/* line 100, ../sass/styles.sass */
 .main_image_home {
   margin: 40px auto 10px;
   display: block;
 }
 
-/* line 98, ../sass/styles.sass */
+/* line 104, ../sass/styles.sass */
 .main_image {
   margin: 20px auto 0;
   display: block;
 }
 
-/* line 102, ../sass/styles.sass */
+/* line 108, ../sass/styles.sass */
 .main_title {
   margin: -30px auto 0;
   display: block;
 }
 
-/* line 106, ../sass/styles.sass */
+/* line 112, ../sass/styles.sass */
 .heading {
   font-size: 18px;
   color: #D5A285;
@@ -8195,22 +8203,22 @@ body {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 112, ../sass/styles.sass */
+/* line 118, ../sass/styles.sass */
 .heading.large {
   font-size: 24px;
   font-weight: 100;
 }
-/* line 115, ../sass/styles.sass */
+/* line 121, ../sass/styles.sass */
 .heading a {
   color: inherit !important;
 }
-/* line 117, ../sass/styles.sass */
+/* line 123, ../sass/styles.sass */
 .heading a:hover {
   text-decoration: underline;
 }
 
 /* Inline Logo Icon */
-/* line 121, ../sass/styles.sass */
+/* line 127, ../sass/styles.sass */
 .logoicon {
   background-image: url("../img/logoicon.png");
   background-repeat: no-repeat;
@@ -8224,37 +8232,37 @@ body {
   display: inline-block;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 121, ../sass/styles.sass */
+  /* line 127, ../sass/styles.sass */
   .logoicon {
     background-image: url("../img/logoicon@2x.png");
   }
 }
 
-/* line 135, ../sass/styles.sass */
+/* line 141, ../sass/styles.sass */
 .main_desc {
   font-size: 14px;
   color: #999999;
   font-weight: 400;
   max-width: 400px;
-  margin: 8px auto 20px;
+  margin: 8px auto 15px;
   padding: 0 0.5em;
 }
 
-/* line 143, ../sass/styles.sass */
+/* line 149, ../sass/styles.sass */
 .pack_wrapper {
-  margin: 30px 0 20px;
+  margin: 15px 0 20px;
 }
 
-/* line 145, ../sass/styles.sass */
+/* line 151, ../sass/styles.sass */
 .pack {
   display: inline-block;
   padding: 8px;
 }
-/* line 148, ../sass/styles.sass */
+/* line 154, ../sass/styles.sass */
 .pack:hover {
   opacity: 0.8;
 }
-/* line 150, ../sass/styles.sass */
+/* line 156, ../sass/styles.sass */
 .pack img {
   display: block;
   margin: 0 auto 8px;
@@ -8263,7 +8271,7 @@ body {
   height: 77px;
   border-radius: 38.6px;
 }
-/* line 158, ../sass/styles.sass */
+/* line 164, ../sass/styles.sass */
 .pack figure {
   display: block;
   text-align: center;
@@ -8272,18 +8280,18 @@ body {
   font-weight: 300;
 }
 
-/* line 165, ../sass/styles.sass */
+/* line 171, ../sass/styles.sass */
 .sticker_wrapper {
   max-width: 480px;
   margin: 20px auto;
 }
 @media screen and (min-width: 768px) {
-  /* line 165, ../sass/styles.sass */
+  /* line 171, ../sass/styles.sass */
   .sticker_wrapper {
     max-width: 640px;
   }
 }
-/* line 170, ../sass/styles.sass */
+/* line 176, ../sass/styles.sass */
 .sticker_wrapper .sticker_box {
   border-radius: 6px;
   width: 90%;
@@ -8293,12 +8301,12 @@ body {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  /* line 170, ../sass/styles.sass */
+  /* line 176, ../sass/styles.sass */
   .sticker_wrapper .sticker_box {
     padding: 16px 12px;
   }
 }
-/* line 179, ../sass/styles.sass */
+/* line 185, ../sass/styles.sass */
 .sticker_wrapper .sticker_div {
   display: inline-block;
   margin: 0;
@@ -8308,55 +8316,55 @@ body {
   padding: 4px;
 }
 @media screen and (min-width: 375px) {
-  /* line 179, ../sass/styles.sass */
+  /* line 185, ../sass/styles.sass */
   .sticker_wrapper .sticker_div {
     width: 100px;
     height: 90px;
   }
 }
 @media screen and (min-width: 414px) {
-  /* line 179, ../sass/styles.sass */
+  /* line 185, ../sass/styles.sass */
   .sticker_wrapper .sticker_div {
     width: 88px;
     height: 79px;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 179, ../sass/styles.sass */
+  /* line 185, ../sass/styles.sass */
   .sticker_wrapper .sticker_div {
     width: 100px;
     height: 90px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 179, ../sass/styles.sass */
+  /* line 185, ../sass/styles.sass */
   .sticker_wrapper .sticker_div {
     width: 134px;
     height: 120px;
   }
 }
-/* line 198, ../sass/styles.sass */
+/* line 204, ../sass/styles.sass */
 .sticker_wrapper .sticker {
   max-width: 100%;
   max-height: 100%;
   cursor: pointer;
 }
 
-/* line 203, ../sass/styles.sass */
+/* line 209, ../sass/styles.sass */
 .btn_wrapper {
   margin-bottom: 30px;
   max-width: 480px;
   margin: 20px auto;
 }
 @media screen and (min-width: 768px) {
-  /* line 203, ../sass/styles.sass */
+  /* line 209, ../sass/styles.sass */
   .btn_wrapper {
     max-width: 320px;
     margin-bottom: 40px;
   }
 }
 
-/* line 210, ../sass/styles.sass */
+/* line 216, ../sass/styles.sass */
 .btn {
   width: 90%;
   border-radius: 6px;
@@ -8369,63 +8377,63 @@ body {
   position: relative;
   background-color: white;
 }
-/* line 221, ../sass/styles.sass */
+/* line 227, ../sass/styles.sass */
 .btn .small {
   display: inline-block;
   margin-left: 8px;
   font-size: 14px;
   font-weight: 300;
 }
-/* line 226, ../sass/styles.sass */
+/* line 232, ../sass/styles.sass */
 .btn:visited {
   color: #0069d9;
   background-color: white;
 }
-/* line 229, ../sass/styles.sass */
+/* line 235, ../sass/styles.sass */
 .btn:hover {
   color: #0069d9;
   background-color: #fafafa;
 }
-/* line 232, ../sass/styles.sass */
+/* line 238, ../sass/styles.sass */
 .btn.line, .btn.line:visited {
   background-color: #61cf43;
   color: white;
 }
-/* line 235, ../sass/styles.sass */
+/* line 241, ../sass/styles.sass */
 .btn.line:hover, .btn.line:visited:hover {
   background-color: #3ab930;
 }
-/* line 237, ../sass/styles.sass */
+/* line 243, ../sass/styles.sass */
 .btn.telegram, .btn.telegram:visited {
   background-color: #3fafe0;
   color: white;
 }
-/* line 240, ../sass/styles.sass */
+/* line 246, ../sass/styles.sass */
 .btn.telegram:hover, .btn.telegram:visited:hover {
   background-color: #2895d1;
 }
-/* line 242, ../sass/styles.sass */
+/* line 248, ../sass/styles.sass */
 .btn.kakaotalk, .btn.kakaotalk:visited {
   background-color: #fbe232;
   color: #3a1e1f;
   border: 1px solid #f7d121;
 }
-/* line 246, ../sass/styles.sass */
+/* line 252, ../sass/styles.sass */
 .btn.kakaotalk:hover, .btn.kakaotalk:visited:hover {
   background-color: #f7d121;
   color: #3a1e1f;
 }
-/* line 249, ../sass/styles.sass */
+/* line 255, ../sass/styles.sass */
 .btn.facebook, .btn.facebook:visited {
   background-color: #435f9a;
   color: white;
 }
-/* line 252, ../sass/styles.sass */
+/* line 258, ../sass/styles.sass */
 .btn.facebook:hover, .btn.facebook:visited:hover {
   background-color: #324f8c;
 }
 
-/* line 254, ../sass/styles.sass */
+/* line 260, ../sass/styles.sass */
 .btn_header_info {
   margin-top: 16px;
   margin-bottom: 2px;
@@ -8434,7 +8442,7 @@ body {
   font-size: 14px;
 }
 
-/* line 261, ../sass/styles.sass */
+/* line 267, ../sass/styles.sass */
 .copyright {
   width: 100%;
   font-size: 16px;
@@ -8450,24 +8458,29 @@ body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 275, ../sass/styles.sass */
+/* line 281, ../sass/styles.sass */
 .copyright p {
   line-height: 1.2;
   margin-top: 0.6em;
   margin-bottom: 1.4em;
 }
 
-/* line 280, ../sass/styles.sass */
+/* line 286, ../sass/styles.sass */
 .copyright:hover {
   color: #d5a285;
 }
 
-/* line 283, ../sass/styles.sass */
+/* line 289, ../sass/styles.sass */
 .gray {
   color: #aaaaaa !important;
 }
 
-/* line 285, ../sass/styles.sass */
+/* line 291, ../sass/styles.sass */
+.darkgray {
+  color: #666 !important;
+}
+
+/* line 293, ../sass/styles.sass */
 .font_light {
   font-weight: 300 !important;
 }
@@ -8508,7 +8521,7 @@ body {
     -webkit-transform: translate(0.5px, -0.5px) rotate(-1deg);
   }
 }
-/* line 313, ../sass/styles.sass */
+/* line 321, ../sass/styles.sass */
 .item_trembling {
   -webkit-animation-name: trembling;
   -webkit-animation-duration: 0.8s;
@@ -8516,20 +8529,20 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
-/* line 319, ../sass/styles.sass */
+/* line 327, ../sass/styles.sass */
 .item_trembling:nth-child(odd) {
   -webkit-animation-direction: alternate;
 }
-/* line 321, ../sass/styles.sass */
+/* line 329, ../sass/styles.sass */
 .item_trembling:nth-child(even) {
   -webkit-animation-direction: reverse;
 }
-/* line 323, ../sass/styles.sass */
+/* line 331, ../sass/styles.sass */
 .item_trembling:nth-child(3n) {
   -webkit-animation-duration: 1s;
   -webkit-animation-direction: alternate-reverse;
 }
-/* line 326, ../sass/styles.sass */
+/* line 334, ../sass/styles.sass */
 .item_trembling:nth-child(5n) {
   -webkit-animation-duration: 0.7s;
   -webkit-animation-direction: reverse;
